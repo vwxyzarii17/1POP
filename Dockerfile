@@ -2,6 +2,9 @@ FROM php:8.3-cli
 
 WORKDIR /app
 
-COPY index.php .
+COPY bot.php .
+COPY start.sh .
 
-CMD ["php", "index.php"]
+RUN chmod +x /app/start.sh
+
+CMD ["/app/start.sh"]
