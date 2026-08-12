@@ -35,7 +35,7 @@ function randomUserAgent() {
 }
 while(true){
 $agen = randomUserAgent();
-$url = 'https://1pop.online/ad/banner?zone=ZONE_0CBEE4FFE579EC6B&size=728x90';
+$url = 'https://1pop.online/ad/banner?zone=ZONE_01755ED80D4E04D9&size=728x90';
 
 $curl = curl_init();
 
